@@ -1,0 +1,98 @@
+div#slider {
+  padding-top: 15px;
+}
+
+#GallerySlider {
+  margin: 20px 0 20px 0;
+}
+
+.my-slider {
+  padding: 0;
+  margin: auto;
+  width: 1150px;
+  height: 250px;
+  justify-self: center;
+}
+
+.my-slider .container {
+  width: 1149px;
+  height: 250px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.my-slider .container img {
+  padding: 0;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 300px;
+  height: 250px;
+  float: left;
+}
+
+
+.left {
+  width: 90px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #727ba9;
+  color: white;
+  margin: 40px 10px 0 0;
+}
+
+.right {
+  width: 90px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #727ba9;
+  color: white;
+  float: right;
+  margin: 40px 10px 0 0;
+}
+
+.buttonLeft {
+  margin: 60px 0 10px 0;
+}
+
+.buttonRight {
+  height: 250px;
+  margin: 60px 0 10px 0;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonLeft {
+  height: 100px;
+
+}
+
+.container {
+  width: 1310px;
+  margin: 0 auto;
+  height: 120px;
+}
+
+.container div {
+  float: left;
+  // line-height: 120px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.wrap :last-child {
+  margin-right: 0;
+}
+
+.left:hover {
+  background: #2abc59;
+}
+
+.right:hover {
+  background: #2abc59;
+}

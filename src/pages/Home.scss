@@ -1,0 +1,50 @@
+div.wrapper {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSikjzE2dyU6xguIyDMNee3PRzS1ursC2M-g-aztEMrLK-iaqKbGA");
+  background-size: 100% 100%;
+  display: grid;
+  grid-template-areas: "header" "content" "footer";
+  grid-row-gap: 20px;
+}
+
+
+.header {
+  display: grid;
+  grid-template-areas: "info-panel" "main-header";
+  grid-template-columns: 100%;
+  grid-row-gap: 10px;
+}
+
+
+div#play-1 {
+  grid-area: play-1;
+}
+
+div#play-2 {
+  grid-area: play-2;
+}
+
+div#play-3 {
+  grid-area: play-3;
+}
+
+
+.form-content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-column-gap: 10px;
+}
+
+div#wrapper {
+  grid-area: wrapper;
+  padding: 0;
+  margin: 10px 100px 10px 100px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 250px 350px;
+  grid-template-areas: "play-1 play-2" "play-3 play-3";
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+
+

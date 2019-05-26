@@ -1,0 +1,16 @@
+div#main-info {
+  background-size: cover;
+  background-position-y: -280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#main-info div#slogan {
+  margin: 40px 20px 0 100px;
+  color: white;
+  font-size: 22px;
+}
+
+#main-info div#slogan h2 {
+  font-size: 32px;
+}

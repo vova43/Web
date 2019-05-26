@@ -1,0 +1,121 @@
+div#logo-name {
+  margin-left: 100px;
+  margin-top: 15px;
+
+  img#logo {
+    width: 180px;
+    height: 120px;
+  }
+
+  div#site-name {
+    width: 120px;
+    text-align: center;
+  }
+}
+
+$menu_font: bold 16px Helvetica, "Times New Roman", monospace;
+
+
+header#main-header {
+  font: bold 16px Helvetica, "Times New Roman", monospace;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  background-size: cover;
+  background-position-y: -110px;
+}
+
+header#main-header div#header-menu {
+  display: flex;
+  height: 49px;
+  margin-top: 60px;
+}
+
+header#main-header div#header-menu menu#main-menu { //випадаюче меню
+  list-style-type: none;
+  list-style-position: inside;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+
+}
+
+header#main-header div#header-menu menu#main-menu ul.submenu {
+  display: none;
+  list-style-type: none;
+  width: 170px;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+}
+
+header#main-header div#header-menu menu#main-menu ul.submenu li a {
+  display: block;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 15px 0 15px 10px;
+}
+
+header#main-header div#header-menu menu#main-menu ul.submenu > li {
+  padding: 0px;
+  margin: 0;
+  width: 160px;
+  background-color: #727ba9;
+}
+
+header#main-header div#header-menu menu#main-menu ul.submenu > li:last-child {
+  padding-bottom: 15px;
+  border-radius: 0 0 15px 15px;
+}
+
+header#main-header div#header-menu menu#main-menu ul.submenu > li:first-child {
+  padding-top: 15px;
+}
+
+header#main-header div#header-menu menu#main-menu li:hover > ul {
+  display: list-item;
+  top: 50px;
+}
+
+header#main-header div#header-menu menu#main-menu > li {
+  flex-direction: row;
+  padding: 15px 0 15px 0;
+  margin: 0px;
+  background-color: #727ba9;
+}
+
+header#main-header div#header-menu menu#main-menu > li > a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 15px 35px 15px 35px;
+}
+
+header#main-header div#header-menu menu#main-menu li a:hover {
+  background-color: #32446e;
+  animation-name: colorchange;
+  animation-duration: 1s;
+}
+
+header#main-header div#header-menu menu#main-menu > li:last-child {
+  padding-right: 200px;
+}
+
+header#main-header div#header-menu menu#main-menu > li:first-child {
+  padding-left: 20px;
+}
+
+header#main-header div#header-menu svg {
+  padding: 0;
+  margin: 0;
+}
+
+@keyframes colorchange {
+  0% {
+    background-color: #a98238;
+  }
+  100% {
+    background-color: #32446e;
+  }
+}
+

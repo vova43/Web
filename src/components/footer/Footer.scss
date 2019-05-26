@@ -1,0 +1,48 @@
+div#footer-1{
+  width: 100%;
+  height: 34px;
+  background-color: #727ba9;
+  color: white;
+}
+div#footer-1 ul#footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+div#footer-1 ul#footer-list li:last-child {
+  margin-right: 150px;
+}
+div#footer-1 ul#footer-list li p {
+  margin: 0;
+  font-size: 19px;
+  padding: 0 30px 0 10px;
+  margin-top: 5px;
+}
+div#footer-1 ul#footer-list li a {
+  margin: 0;
+  padding: 15px 50px 0 50px;
+}
+div#footer-1 ul#footer-list li img {
+  margin: 0px;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+}
+
+.facebook:hover {
+  background-color: #3c5b9b;
+}
+
+.twitter:hover {
+  background-color: #359bed;
+}
+
+.telegram:hover {
+  background-color: #3ab6e5;
+}
+
+.rss:hover {
+  background-color: #f08421;
+}
