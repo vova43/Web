@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './MainInform.scss';
 
 class MainInform extends Component {
 

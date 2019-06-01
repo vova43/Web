@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './AdditionalMenu.scss';
 
 class AdditionalMenu extends Component {
 

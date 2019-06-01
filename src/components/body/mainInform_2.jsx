@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './mainInform_2.scss';
+
 
 class MainInform_2 extends Component {
 

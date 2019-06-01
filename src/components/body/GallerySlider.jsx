@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './GallerySlider.scss';
 
 class GallerySlider extends Component {
     constructor() {

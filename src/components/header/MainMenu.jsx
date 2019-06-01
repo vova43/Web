@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './MainMenu.scss';
 
 class MainMenu extends Component {
 
@@ -23,7 +22,7 @@ class MainMenu extends Component {
                                 </ul>
                             </li>
                             <li><a href="/">Новини</a></li>
-                            <li><a href="/">Контакти</a></li>
+                            <li><a href="http://localhost:63343/LearnServlets/web/html/Calculator.html?_ijt=d8oas5fa5g8r3qt86tjjdtf3ii">Контакти</a></li>
                         </menu>
                     </div>
                 </header>
